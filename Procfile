@@ -1,1 +1,1 @@
-worker: npm start
+worker: node . --db 'mongodb+srv://planetbot:planet2022@planetbot.fstr4rd.mongodb.net/?retryWrites=true&w=majority'
